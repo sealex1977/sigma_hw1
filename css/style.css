@@ -1,0 +1,75 @@
+@font-face {
+	font-family: Helvetica;
+	font-weight: 700;
+	src: url(../fonts/Helvetica-Bold.ttf);
+}
+
+body {
+	margin: 0 auto;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18px;
+	color: #606060;
+	background-color: #E5E5E5;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding-left: 0;
+}
+h1, h2, h3, h4 {
+	color: #0844a4;
+}
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 24px;
+}
+.wrapper {
+	max-width: 1440px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+.header {
+	height: 100vh;
+	background-image: url('../img/acquainting-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-sizing: border-box;
+	padding-top: 10%;
+}
+.acquaintance {
+	width: 70%;
+	max-height: 600px;
+	border: 3px solid #0844a4;
+	margin: 0 auto;
+}
+.acquaintance-title {
+	font-size: 100px;
+	text-align: center;
+}
+.acquaintance-btn {
+	display: block;
+	background-color: #2525f5;
+	color: #fff;
+	font-size: 30px;
+	text-decoration: underline;
+	padding: 0 60px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	height: 100px;
+	margin: 30px auto;
+	cursor: pointer;
+}
