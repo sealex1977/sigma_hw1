@@ -23,15 +23,6 @@ p {
 h1, h2, h3, h4 {
 	color: #0844a4;
 }
-h1 {
-	font-size: 36px;
-}
-h2 {
-	font-size: 30px;
-}
-h3 {
-	font-size: 24px;
-}
 .wrapper {
 	background-color: #fff;
 	margin: 0 auto;
@@ -39,6 +30,11 @@ h3 {
 .container {
 	width: 90%;
 	margin: 0 auto;
+}
+.about-container,
+.interests-container,
+.getintouch-container {
+	position: relative;
 }
 .header {
 	height: 100vh;
@@ -61,7 +57,7 @@ h3 {
 }
 .acquaintance-btn {
 	display: block;
-	background-color: #2525f5;
+	background-color: #0844a4;
 	color: #fff;
 	font-size: 30px;
 	text-decoration: underline;
@@ -76,11 +72,9 @@ h3 {
 	height: 100vh;
 	padding: 80px 0;
 }
-.about-container {
-	position: relative;
-}
+
 .about-menu {
-	width: 55%;
+	width: 75%;
 	margin-right: 0;
 	margin-left: auto;
 }
@@ -102,7 +96,9 @@ h3 {
 }
 .about__menu-link {
 }
-.about-title {
+.about-title,
+.interests-title,
+.getintouch-title {
 	text-align: center;
 	font-size: 60px;
 }
@@ -157,4 +153,132 @@ h3 {
 	position: absolute;
 	right: 0;
 	bottom: 0;
+}
+.interests {
+	height: 100vh;
+	padding: 80px 0;
+}
+.interests-text {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+.interests-inner {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.interests-content {
+	width: 40%;
+}
+.interests-img img{
+	width: 100%;
+	margin-bottom: 60px;
+}
+.interests-description {
+	margin-bottom: 80px;
+}
+.getintouch{
+	height: 100vh;
+}
+.getintouch-text {
+	text-align: center;
+	margin-bottom: 120px;
+}
+.getintouch-form {
+	margin: 0 auto;
+	width: 60%;
+	margin-bottom: 180px;
+}
+.getintouch-form-inner {
+	width: 100%;
+}
+.getintouch-textarea {
+	resize: none;
+	border: 1px solid #0844a4;;
+	box-sizing: border-box;
+	width: 100%;
+	height: 15vh;
+	padding-left: 16px;
+	margin-bottom: 16px;
+}
+.getintouch-input {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.getintouch-email {
+	border: 1px solid #0844a4;;
+	box-sizing: border-box;
+	width: 35%;
+	height: 5vh;
+	padding-left: 16px;
+}
+.getintouch-name {
+	border: 1px solid #0844a4;;
+	box-sizing: border-box;
+	width: 35%;
+	height: 5vh;
+	padding-left: 16px;
+}
+.getintouch-btn {
+	cursor: pointer;
+	background-color: #0844a4;
+	color: #fff;
+	border: 1px solid #606060;
+	box-sizing: border-box;
+	width: 25%;
+	height: 5vh;
+}
+.social {
+	width: 40%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.social-list {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+.social-icon {
+	width: 60px;
+	height: 60px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+.social-github {
+	background-image: url('../img/github.svg');
+}
+.social-facebook {
+	background-image: url('../img/facebook.svg');
+}
+.social-instagram {
+	background-image: url('../img/instagram.svg');
+}
+.social-youtube {
+	background-image: url('../img/youtube.svg');
+}
+.social-twitter {
+	background-image: url('../img/twitter.svg');
+}
+.company-text {
+	text-align: center;
+	margin: 15px 0;
+}
+.company-icon {
+	width: 100px;
+	height: 60px;
+	background-image: url('../img/adm.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	margin: 0 auto;
 }
