@@ -33,8 +33,16 @@ h1, h2, h3, h4 {
 }
 .about-container,
 .interests-container,
-.getintouch-container {
+.getintouch-container,
+.experience-container {
 	position: relative;
+}
+.top {
+	font-size: 40px;
+	color: #0844a4;
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 .header {
 	height: 100vh;
@@ -98,7 +106,8 @@ h1, h2, h3, h4 {
 }
 .about-title,
 .interests-title,
-.getintouch-title {
+.getintouch-title,
+.experience-title {
 	text-align: center;
 	font-size: 60px;
 }
@@ -147,12 +156,31 @@ h1, h2, h3, h4 {
 .about-info-text li{
 	margin-bottom: 10px;
 }
-.top {
-	font-size: 40px;
+
+.experience {
+	height: 100vh;
+	padding: 80px 0;
+}
+.experience-content {
+	height: 90%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+.experience-notfrontend {
+	width: 20%;
+	height: 300px;
+}
+.experience-diagram {
+	width: 40%;
+	height: 300px;
+}
+.experience-frontend {
+	width: 20%;
+	height: 300px;
+}
+.experience-text a {
 	color: #0844a4;
-	position: absolute;
-	right: 0;
-	bottom: 0;
 }
 .interests {
 	height: 100vh;
