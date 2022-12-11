@@ -9,7 +9,7 @@
 	<link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
-	<div class="wrapper">
+	<div class="wrapper" id="top">
 		<div class="header">
 			<div class="acquaintance">
 				<h1 class="acquaintance-title">Let's get acquainted</h1>
@@ -20,13 +20,13 @@
 			<div class="container about-container">
 				<nav class="about-menu">
 					<ul class="about-menu-items">
-						<li class="about__menu-item"><a class="about__menu-link" href="#appointment">About</a></li>
-						<li class="about__menu-item"><a class="about__menu-link" href="#gallery">Experience</a></li>
-						<li class="about__menu-item"><a class="about__menu-link" href="#services">Interest's</a></li>
-						<li class="about__menu-item"><a class="about__menu-link" href="#team">Get in touch</a></li>
+						<li class="about-menu-item"><a class="about-menu-link" href="#about">About</a></li>
+						<li class="about-menu-item"><a class="about-menu-link" href="#experience">Experience</a></li>
+						<li class="about-menu-item"><a class="about-menu-link" href="#interests">Interest's</a></li>
+						<li class="about-menu-item"><a class="about-menu-link" href="#getintouch">Get in touch</a></li>
 					</ul>
 				</nav>
-				<h2 class="about-title">About</h2>
+				<h2 class="about-title" id="about">About</h2>
 				<div class="about-inner">
 					<div class="about-img">
 						<img src="./img/me.jpg" alt="my photo">
@@ -36,9 +36,7 @@
 						<div class="about-info">
 							<div class="about-info-item">
 								<div class="about-info-box">
-									<div class="about-info-icon">
-										<img src="./img/checkmark.svg" alt="checkmark icon">
-									</div>
+									<div class="about-info-icon"></div>
 									<div class="about-info-title">My strengths</div>
 								</div>
 								<div class="about-info-text">
@@ -55,9 +53,7 @@
 							</div>
 							<div class="about-info-item">
 								<div class="about-info-box">
-									<div class="about-info-icon">
-										<img src="./img/checkmark.svg" alt="checkmark icon">
-									</div>
+									<div class="about-info-icon"></div>
 									<div class="about-info-title">My goal's</div>
 								</div>
 								<div class="about-info-text">
@@ -76,9 +72,7 @@
 							</div>
 							<div class="about-info-item">
 								<div class="about-info-box">
-									<div class="about-info-icon">
-										<img src="./img/checkmark.svg" alt="checkmark icon">
-									</div>
+									<div class="about-info-icon"></div>
 									<div class="about-info-title">My dream's</div>
 								</div>
 								<div class="about-info-text">
@@ -90,12 +84,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="top">To top</div>
+				<div class="top"><a href="#top">To top</a></div>
 			</div>
 		</section>
 		<section class="experience">
 			<div class="container experience-container">
-				<h2 class="experience-title">Experience</h2>
+				<h2 class="experience-title" id="experience">Experience</h2>
 				<div class="experience-content">
 					<div class="experience-notfrontend">
 						<p class="experience-text">
@@ -109,12 +103,12 @@
 						</p>
 					</div>
 				</div>
-				<div class="top">To top</div>
+				<div class="top"><a href="#top">To top</a></div>
 			</div>
 		</section>
 		<section class="interests">
 			<div class="container interests-container">
-				<h2 class="interests-title">Interest's</h2>
+				<h2 class="interests-title" id="interests">Interest's</h2>
 				<div class="interests-text">
 					Almost my whole life is connected with sports. At the age of 8, I started doing jumping acrobatics. I have the rank of master of sports in this sport. After the completion of the career of the acrobat, other careers began...
 				</div>
@@ -136,12 +130,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="top">To top</div>
+				<div class="top"><a href="#top">To top</a></div>
 			</div>
 		</section>
 		<section class="getintouch">
 			<div class="container getintouch-container">
-				<h2 class="getintouch-title">Get In Touch</h2>
+				<h2 class="getintouch-title" id="getintouch">Get In Touch</h2>
 				<div class="getintouch-text">Some information about why we need be in touch =)</div>
 				<form class="getintouch-form">
 					<div class="getintouch-form-inner">
@@ -149,7 +143,7 @@
 						<p class="getintouch-input">
 							<input class="getintouch-email" type="email" placeholder="Email Address" required>
 							<input class="getintouch-name" type="text" placeholder="Full Name" required>
-							<button class="getintouch-btn">Send</button>
+							<button class="getintouch-btn" type="submit">Send</button>
 						</p>
 					</div>
 				</form>
@@ -188,7 +182,7 @@
 					</a>
 					<p class="company-text">&copy; ADM Company</p>
 				</div>
-				<div class="top">To top</div>
+				<div class="top"><a href="#top">To top</a></div>
 			</div>
 		</section>
 	</div>
