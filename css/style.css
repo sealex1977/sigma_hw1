@@ -189,7 +189,38 @@ h1, h2, h3, h4 {
 }
 .experience-diagram {
 	width: 40%;
-	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.experience-circle {
+	margin: 0 auto 50px;
+}
+.experience-technologies {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.technology {
+	border: 1px solid #000;
+	border-radius: 20px;
+	color: #000;
+	padding: 10px;
+}
+.html {
+	background-color: #ff0000;
+}
+.css {
+	color: #fff;
+	background-color: #0000ff;
+}
+.javascript {
+	background-color: #00ff00;
+}
+.react {
+	background-color: goldenrod;
 }
 .experience-frontend {
 	width: 20%;
