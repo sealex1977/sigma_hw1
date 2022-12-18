@@ -197,6 +197,23 @@ h1, h2, h3, h4 {
 .experience-circle {
 	margin: 0 auto 50px;
 }
+.external-circle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 400px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	background: conic-gradient(#ff0000 35%, #0000ff 35% 70%, #00ff00 70% 90%, goldenrod 90% 100%);
+}
+.internal-circle {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	background-color: #fff;
+}
 .experience-technologies {
 	display: flex;
 	justify-content: center;
