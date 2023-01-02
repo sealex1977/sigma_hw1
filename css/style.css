@@ -77,7 +77,7 @@ h1, h2, h3, h4 {
 	color: #0844a4;
 	border-color: #0844a4;
 	background-color: #fff;
-	transform: scale(105%);
+	transform: scale(1.05);
 	transition-duration: .5s;
 }
 .about {
